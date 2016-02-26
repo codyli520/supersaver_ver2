@@ -29,7 +29,7 @@ exports.view = function(req, res){
         }
 
         if(flag == 0){
-            res.render('login',{'noSuchUser' : '*User Does Not Exist!'}, function(err));
+            res.render('login',{'noSuchUser' : '*User Does Not Exist!'});
         }else if(flag == 1){
             res.render('login', {'wrongPassword' : '*Wrong Password!'});
         }
