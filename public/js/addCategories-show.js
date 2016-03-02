@@ -5,7 +5,6 @@ $( document ).ready(function() {
     $('.thumbnail').click(function(e){
         var curTime = new Date();
         var time = curTime - pageLoadTime;
-        alert(time);
         ga('send','timing','category', 'selected',time);
         ga('send','event','category','click');
     });
