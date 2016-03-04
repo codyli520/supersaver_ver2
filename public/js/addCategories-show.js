@@ -6,7 +6,6 @@ $( document ).ready(function() {
         var curTime = new Date();
         var time = curTime - pageLoadTime;
         ga('send','timing','category', 'selected',time);
-        ga('send','event','category','click');
     });
 });
 
