@@ -1,7 +1,7 @@
 function checkPass()
 {
     //Store the password field objects into variables ...
-    var password = document.getElementById('password');
+    var password = document.getElementById('create_password');
     var confirm_password = document.getElementById('confirm_password');
     //Store the Confimation Message Object ...
     var message = document.getElementById('confirmMessage');
